@@ -1,0 +1,42 @@
+{
+  "slide": 1,
+  "title": "证券公司 AI 经分系统宏观方案",
+  "prompt": "# Codex PPT Slide Image Prompt\n\n## Canvas\n{\n  \"type\": \"16:9 full-slide PowerPoint image\",\n  \"language\": \"Chinese\",\n  \"slide_number\": 1,\n  \"render_slide_number\": false\n}\n\n## Deck Goal\n面向证券公司高管，汇报 AI 经分系统的定位、经营闭环、落地场景、组织配套、建设路径和需拍板事项。\n\n## Required Background\n{\n  \"deck_context\": {\n    \"source_summary\": \"证券公司 AI 经分系统应从自动报表和智能问数升级为面向经营管理的智能决策闭环。系统把客户、交易、产品、渠道、组织、市场、风控合规等经营事实，转化为经营知识、结构化分析、预警、建议、动作跟踪和可复盘经验。\",\n    \"core_claim\": \"AI 经分系统的关键价值不是展示数据，而是进入经营会议、责任分派、动作执行和复盘机制，形成公司级经营智能。\",\n    \"canonical_terms\": [\n      \"数据\",\n      \"知识\",\n      \"分析\",\n      \"预警\",\n      \"建议\",\n      \"动作跟踪\",\n      \"自我进化\",\n      \"经营闭环\",\n      \"证据链\",\n      \"合规边界\",\n      \"公司级经营智能\"\n    ]\n  },\n  \"slide_local_context\": {\n    \"required_background\": \"本方案讨论宏观设计，不展开具体技术架构、模型选型、数据表结构或接口实现。\"\n  }\n}\n\n## Global Style\n{\n  \"name\": \"麦肯锡风格，按已批准样张收敛\",\n  \"visual_direction\": \"浅色高管咨询汇报风，接近顶级战略咨询报告但不使用任何真实咨询公司品牌；整体清爽、理性、董事会可用，保留已批准样张的自然视觉节奏和轻量图标语言。\",\n  \"color_palette\": \"white / off-white / pale cool gray background, ink navy #0F172A for title text, blue-gray #334155 for body, restrained consulting blue #1F5FAE for emphasis, hairline gray #D8DEE8 for structure; avoid heavy dark navy blocks, neon gradients, warm decorative backgrounds, and excessive colors.\",\n  \"typography\": \"大标题清晰有分量，正文短句化、左对齐或按结构对齐，中文必须准确、清楚、无乱码；高管结论使用克制强调，不使用长段落。\",\n  \"texture_and_finish\": \"flat premium report finish with subtle paper or light gray field, precise margins, thin rules, restrained shadows only when needed.\",\n  \"deck_consistency\": \"保持已批准样张的浅色咨询汇报、流程清晰、轻量图标、底部或侧边高管关注点；每页根据角色变换结构，不重复同一种卡片模板。\"\n}\n\n## Input Images\n\n- Image 1: /Users/kelvin/code/Plan/designs/securities-ai-business-analysis-system/securities-ai-business-analysis-ppt/origin_image/slide_02.png — approved sample slide style reference; match palette, typography mood, light consulting report finish, simple icon language, bottom executive focus strip, and clear flow readability; do not copy exact layout unless requested\n\n\n## Slide\n{\n  \"number\": 1,\n  \"title\": \"证券公司 AI 经分系统宏观方案\",\n  \"role\": \"cover\",\n  \"intent\": \"用高管汇报口吻开场，明确本方案不是技术实现细节，而是经营管理闭环方案。\"\n}\n\n## Text\n{\n  \"title\": \"证券公司 AI 经分系统宏观方案\",\n  \"key_points\": [\n    \"核心判断：AI 经分系统应定位为经营管理闭环，而不是新一代报表平台\",\n    \"管理价值：把分散经营事实转化为可预警、可行动、可复盘的经营判断\",\n    \"汇报目的：明确建设方向、优先场景、组织配套和需拍板事项\"\n  ],\n  \"speaker_focus\": \"开场要结论前置，强调这是面向经营管理的系统方案。\"\n}\n\n## Layout\n{\n  \"composition\": \"大标题在左上或中左，副标题和三条管理价值在下方形成清晰层级；右侧可使用抽象经营网络、决策路径或闭环线条作为主视觉。\",\n  \"content_zones\": \"title zone, executive thesis zone, subtle business system visual zone\",\n  \"relationship_to_previous_slide\": \"opening slide\"\n}\n\n## Visual Elements\n{\n  \"main_visual\": \"抽象证券经营网络与决策闭环，节点包括客户、资产、交易、产品、渠道、组织、风险。\",\n  \"supporting_elements\": \"small report metadata labels such as EXECUTIVE BRIEF / OPERATING INTELLIGENCE / 2026\"\n}\n\n## Constraints\n[\n  \"封面不要做成营销海报\",\n  \"不要使用真实公司或咨询公司 logo\",\n  \"文字保持少而有力\"\n]\n\n## Style Reference Rule\nUse Image 1 as the approved sample-slide style reference. Match its palette, typography mood, density, texture, and overall visual identity. Do not copy its exact layout unless this slide's layout explicitly asks for it.\n\n## Input Image Handling Rules\nFor any input image marked as a strict input asset, include it visibly and preserve its content. Do not redraw, replace, relabel, or invent a similar figure. Scale and crop only as needed for composition while keeping the important labels, arrows, data, and relationships recognizable.\n\n## Universal Constraints\n- The final image itself must contain the title and key points.\n- Render Chinese text exactly and legibly; avoid garbled characters.\n- Keep the confirmed deck style consistent while varying layout by slide role.\n- No watermark, unrelated logo, or extra slide number.\n",
+  "out": "slide_01.png",
+  "input_images": [
+    {
+      "path": "/Users/kelvin/code/Plan/designs/securities-ai-business-analysis-system/securities-ai-business-analysis-ppt/origin_image/slide_02.png",
+      "role": "approved sample slide style reference",
+      "fidelity": "match palette, typography mood, light consulting report finish, simple icon language, bottom executive focus strip, and clear flow readability; do not copy exact layout unless requested"
+    }
+  ],
+  "requires_context_images": true,
+  "expected_backend": "built-in image tool",
+  "sample_generation_method": {
+    "backend_used": "built-in image tool",
+    "tool_name": "image_gen",
+    "mode": "generate",
+    "prompt_source": "approved manually authored sample prompt for Slide 2",
+    "size": "16:9 landscape, built-in default",
+    "quality": "built-in default",
+    "approved_sample_path": "/Users/kelvin/code/Plan/designs/securities-ai-business-analysis-system/securities-ai-business-analysis-ppt/origin_image/slide_02.png",
+    "input_context_preparation": "approved sample slide is available as local style reference for subsequent jobs",
+    "handoff_rule": "Subagents must use this same backend/tool/mode; return a blocker if unavailable."
+  },
+  "generation_contract": {
+    "must_use_selected_image_backend": true,
+    "must_match_sample_generation_method": true,
+    "forbidden_final_image_methods": [
+      "local drawing/rendering scripts",
+      "Pillow-generated slides",
+      "SVG/HTML/CSS/canvas screenshots",
+      "python-pptx/PptxGenJS/native PPT layout screenshots",
+      "manually composited text/image overlays"
+    ],
+    "must_return": [
+      "backend_used",
+      "selected_source",
+      "qa_note"
+    ]
+  }
+}

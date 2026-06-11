@@ -1,0 +1,303 @@
+{
+  "deck_name": "securities-ai-business-analysis-ppt",
+  "language": "Chinese",
+  "goal": "面向证券公司高管，汇报 AI 经分系统的定位、经营闭环、落地场景、组织配套、建设路径和需拍板事项。",
+  "selected_image_backend": "built-in image tool",
+  "max_concurrent_slides": 6,
+  "sample_generation_method": {
+    "backend_used": "built-in image tool",
+    "tool_name": "image_gen",
+    "mode": "generate",
+    "prompt_source": "approved manually authored sample prompt for Slide 2",
+    "size": "16:9 landscape, built-in default",
+    "quality": "built-in default",
+    "approved_sample_path": "/Users/kelvin/code/Plan/designs/securities-ai-business-analysis-system/securities-ai-business-analysis-ppt/origin_image/slide_02.png",
+    "input_context_preparation": "approved sample slide is available as local style reference for subsequent jobs",
+    "handoff_rule": "Subagents must use this same backend/tool/mode; return a blocker if unavailable."
+  },
+  "approved_style_reference": {
+    "path": "/Users/kelvin/code/Plan/designs/securities-ai-business-analysis-system/securities-ai-business-analysis-ppt/origin_image/slide_02.png",
+    "role": "approved sample slide style reference",
+    "fidelity": "match palette, typography mood, light consulting report finish, simple icon language, bottom executive focus strip, and clear flow readability; do not copy exact layout unless requested"
+  },
+  "style": {
+    "name": "麦肯锡风格，按已批准样张收敛",
+    "visual_direction": "浅色高管咨询汇报风，接近顶级战略咨询报告但不使用任何真实咨询公司品牌；整体清爽、理性、董事会可用，保留已批准样张的自然视觉节奏和轻量图标语言。",
+    "color_palette": "white / off-white / pale cool gray background, ink navy #0F172A for title text, blue-gray #334155 for body, restrained consulting blue #1F5FAE for emphasis, hairline gray #D8DEE8 for structure; avoid heavy dark navy blocks, neon gradients, warm decorative backgrounds, and excessive colors.",
+    "typography": "大标题清晰有分量，正文短句化、左对齐或按结构对齐，中文必须准确、清楚、无乱码；高管结论使用克制强调，不使用长段落。",
+    "texture_and_finish": "flat premium report finish with subtle paper or light gray field, precise margins, thin rules, restrained shadows only when needed.",
+    "deck_consistency": "保持已批准样张的浅色咨询汇报、流程清晰、轻量图标、底部或侧边高管关注点；每页根据角色变换结构，不重复同一种卡片模板。"
+  },
+  "deck_context": {
+    "source_summary": "证券公司 AI 经分系统应从自动报表和智能问数升级为面向经营管理的智能决策闭环。系统把客户、交易、产品、渠道、组织、市场、风控合规等经营事实，转化为经营知识、结构化分析、预警、建议、动作跟踪和可复盘经验。",
+    "core_claim": "AI 经分系统的关键价值不是展示数据，而是进入经营会议、责任分派、动作执行和复盘机制，形成公司级经营智能。",
+    "canonical_terms": [
+      "数据",
+      "知识",
+      "分析",
+      "预警",
+      "建议",
+      "动作跟踪",
+      "自我进化",
+      "经营闭环",
+      "证据链",
+      "合规边界",
+      "公司级经营智能"
+    ]
+  },
+  "slides": [
+    {
+      "number": 1,
+      "title": "证券公司 AI 经分系统宏观方案",
+      "role": "cover",
+      "intent": "用高管汇报口吻开场，明确本方案不是技术实现细节，而是经营管理闭环方案。",
+      "key_points": [
+        "核心判断：AI 经分系统应定位为经营管理闭环，而不是新一代报表平台",
+        "管理价值：把分散经营事实转化为可预警、可行动、可复盘的经营判断",
+        "汇报目的：明确建设方向、优先场景、组织配套和需拍板事项"
+      ],
+      "speaker_focus": "开场要结论前置，强调这是面向经营管理的系统方案。",
+      "local_context": {
+        "required_background": "本方案讨论宏观设计，不展开具体技术架构、模型选型、数据表结构或接口实现。"
+      },
+      "layout": {
+        "composition": "大标题在左上或中左，副标题和三条管理价值在下方形成清晰层级；右侧可使用抽象经营网络、决策路径或闭环线条作为主视觉。",
+        "content_zones": "title zone, executive thesis zone, subtle business system visual zone",
+        "relationship_to_previous_slide": "opening slide"
+      },
+      "visual_elements": {
+        "main_visual": "抽象证券经营网络与决策闭环，节点包括客户、资产、交易、产品、渠道、组织、风险。",
+        "supporting_elements": "small report metadata labels such as EXECUTIVE BRIEF / OPERATING INTELLIGENCE / 2026"
+      },
+      "constraints": [
+        "封面不要做成营销海报",
+        "不要使用真实公司或咨询公司 logo",
+        "文字保持少而有力"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "核心闭环：从经营事实到经营智能",
+      "role": "concept explanation",
+      "intent": "保留已批准样张，作为全套视觉基准和核心概念页。",
+      "key_points": [
+        "数据 -> 知识 -> 分析 -> 预警 -> 建议 -> 动作跟踪 -> 自我进化",
+        "从看见事实升级为解释变化、提前干预、推动动作、沉淀经验",
+        "AI 洞察必须进入经营会议、责任分派和复盘机制"
+      ],
+      "layout": {
+        "composition": "approved sample slide already exists; keep it as final Slide 2.",
+        "relationship_to_previous_slide": "sample-approved baseline"
+      },
+      "visual_elements": {
+        "main_visual": "已批准的七段闭环横向流程图。"
+      },
+      "constraints": [
+        "Do not regenerate this slide unless explicitly requested"
+      ],
+      "sample_approved": true
+    },
+    {
+      "number": 3,
+      "title": "目标对象：让不同层级形成统一经营语言",
+      "role": "stakeholder map",
+      "intent": "说明系统服务对象和价值分层，让高管理解系统不是单点工具，而是统一经营语言的平台。",
+      "key_points": [
+        "高管层：快速判断全局态势、关键风险和战略机会",
+        "条线与分支机构：识别资源配置问题、短板诊断和增长抓手",
+        "一线团队：获得具体、合规、可执行的客户和服务动作建议",
+        "经分与战略团队：从取数制表转向洞察审核和方法沉淀"
+      ],
+      "layout": {
+        "composition": "组织层级金字塔或阶梯图，左侧为层级，右侧对应管理问题和系统输出。",
+        "content_zones": "title, stakeholder hierarchy visual, concise value bullets, executive implication strip",
+        "relationship_to_previous_slide": "new layout; moves from system mechanism to organization value"
+      },
+      "visual_elements": {
+        "main_visual": "五层组织价值阶梯：高管层、条线负责人、分支机构管理者、一线团队、经分与战略团队。",
+        "supporting_elements": "thin connectors, small role icons, bottom note: 统一口径是跨层级协同的前提"
+      },
+      "constraints": [
+        "避免人物卡通",
+        "每个层级只保留一句核心需求",
+        "高管结论区要明确"
+      ]
+    },
+    {
+      "number": 4,
+      "title": "数据层与知识层：可信事实 + 证券经营理解",
+      "role": "foundation architecture",
+      "intent": "强调可信数据和业务知识是 AI 输出公信力的基础。",
+      "key_points": [
+        "指标口径不统一，AI 输出就没有公信力",
+        "数据层整合客户、账户、交易、产品、渠道、组织、市场和风控合规事实",
+        "知识层沉淀指标定义、业务逻辑、管理规则、客户分层、市场解释和合规边界",
+        "先统一公司级经营语言，再逐步支持条线和区域差异化"
+      ],
+      "layout": {
+        "composition": "双层能力底座图：下层为经营事实域矩阵，上层为证券经营知识资产；右侧放管理前提和决策含义。",
+        "content_zones": "title, two-layer foundation visual, right-side executive implication",
+        "relationship_to_previous_slide": "framework slide; more architectural than stakeholder map"
+      },
+      "visual_elements": {
+        "main_visual": "两层底座：统一经营事实 / 证券经营知识。",
+        "supporting_elements": "small labels for 客户、账户、交易、产品、渠道、组织、市场、风控合规；知识标签为 指标、业务、管理、客户、市场、合规、经验"
+      },
+      "constraints": [
+        "不要塞入过多数据表",
+        "用矩阵和底座表达可信度，不做技术架构图"
+      ]
+    },
+    {
+      "number": 5,
+      "title": "分析层：把数据组织成经营判断",
+      "role": "analytical framework",
+      "intent": "把经营分析从问数提升为归因、影响、证据和责任对象。",
+      "key_points": [
+        "分析层回答：问题在哪里、为什么、影响多大、谁负责、下一步看什么",
+        "典型方向包括全局态势、异动归因、机构对比、客户结构、产品经营、渠道效率和专项复盘",
+        "稳定输出结构：现象 -> 影响 -> 原因 -> 证据 -> 建议方向 -> 责任对象",
+        "高管价值：让经营会议从解释数据转向讨论决策"
+      ],
+      "layout": {
+        "composition": "中央为六段证据链横向机制，周边以小标签列出典型分析方向；底部放高管价值结论。",
+        "content_zones": "title, central evidence chain, analysis direction tags, executive value strip",
+        "relationship_to_previous_slide": "process/framework slide; continues foundation into decision output"
+      },
+      "visual_elements": {
+        "main_visual": "现象 -> 影响 -> 原因 -> 证据 -> 建议方向 -> 责任对象 的证据链流程。",
+        "supporting_elements": "thin arrows, small analytical labels, restrained blue highlight on 责任对象"
+      },
+      "constraints": [
+        "不要做成普通流程图模板",
+        "重点突出证据链和经营会议价值"
+      ]
+    },
+    {
+      "number": 6,
+      "title": "预警与建议：从提前干预到可执行动作",
+      "role": "governance process",
+      "intent": "说明预警和建议如何从系统输出进入管理动作，同时明确人机边界。",
+      "key_points": [
+        "预警要说明触发原因、影响对象、责任人和处理时限",
+        "预警覆盖经营目标、客户流失、机构表现、产品风险、市场冲击、合规边界和经营机会",
+        "建议分为管理建议、业务建议和一线建议",
+        "治理原则：AI 给出建议和依据，人负责确认、取舍、授权和执行"
+      ],
+      "layout": {
+        "composition": "左侧为预警分级和类型地图，右侧为建议到动作的三层结构；底部强调人机分工边界。",
+        "content_zones": "title, warning taxonomy, recommendation hierarchy, governance principle strip",
+        "relationship_to_previous_slide": "paired process slide; analysis output turns into action proposal"
+      },
+      "visual_elements": {
+        "main_visual": "预警分级漏斗 + 三类建议结构。",
+        "supporting_elements": "priority markers 一级/二级/三级/四级; human decision gate"
+      },
+      "constraints": [
+        "合规边界必须可见",
+        "避免让页面看起来像 AI 自动决策"
+      ]
+    },
+    {
+      "number": 7,
+      "title": "动作跟踪与自我进化：让系统越用越懂公司",
+      "role": "closed-loop execution",
+      "intent": "强调真正的管理闭环来自动作跟踪、效果复盘和知识回流。",
+      "key_points": [
+        "没有动作跟踪，系统只能证明“说得对”；有动作跟踪，才能证明“是否改善经营”",
+        "跟踪内容覆盖建议来源、责任组织、执行计划、过程记录、指标变化和复盘结论",
+        "自我进化沉淀指标、预警、建议、知识、场景和组织打法",
+        "管理机制：系统学习、人工审核、稳定发布"
+      ],
+      "layout": {
+        "composition": "放大闭环后半段：建议采纳 -> 任务执行 -> 指标变化 -> 复盘结论 -> 知识沉淀；右侧展示发布治理机制。",
+        "content_zones": "title, execution feedback loop, governance mechanism, executive takeaway",
+        "relationship_to_previous_slide": "continuation of action governance; different visual rhythm"
+      },
+      "visual_elements": {
+        "main_visual": "任务流与反馈流结合的闭环图。",
+        "supporting_elements": "small status labels: 采纳 / 执行 / 有效 / 复盘 / 发布"
+      },
+      "constraints": [
+        "突出复盘和人工审核",
+        "不要暗示系统自动改规则"
+      ]
+    },
+    {
+      "number": 8,
+      "title": "典型经营场景：从驾驶舱到专项复盘",
+      "role": "scenario map",
+      "intent": "展示优先落地场景，强调先从高管可感知、组织可执行、成效可复盘的场景切入。",
+      "key_points": [
+        "建议先从高管可感知、组织可执行、成效可复盘的场景切入",
+        "公司经营驾驶舱：目标达成、关键波动、重大风险和战略机会",
+        "分支机构经营诊断与客户资产流失分析：识别短板、流失原因和合规挽留动作",
+        "产品销售与持仓分析、专项战役复盘：关注增长质量、客户体验和打法复制"
+      ],
+      "layout": {
+        "composition": "五个场景组成经营场景地图，按高管视角从全局到专项展开；每个场景用一句核心问题表达。",
+        "content_zones": "title, five-scenario map, selection principle note",
+        "relationship_to_previous_slide": "scenario map after mechanism slides"
+      },
+      "visual_elements": {
+        "main_visual": "五场景地图：公司经营驾驶舱、分支机构经营诊断、客户资产流失分析、产品销售与持仓分析、专项战役复盘。",
+        "supporting_elements": "small path or portfolio map, restrained scenario icons"
+      },
+      "constraints": [
+        "场景卡片不要太多文字",
+        "强调优先级选择逻辑"
+      ]
+    },
+    {
+      "number": 9,
+      "title": "组织协同与关键原则",
+      "role": "operating model",
+      "intent": "说明系统落地不仅是工具建设，还需要角色、会议和治理机制配套。",
+      "key_points": [
+        "三类角色：经营决策者、业务专家、经分运营者",
+        "三类流程：日常监控、周度经营分析、月度复盘迭代",
+        "落地原则：经营闭环优先、人机分工清晰、证据链完整、合规边界内生",
+        "组织要求：让 AI 洞察进入经营会议、任务分派和复盘机制"
+      ],
+      "layout": {
+        "composition": "角色 x 流程矩阵，右侧或底部列关键原则，形成操作模型而不是理念清单。",
+        "content_zones": "title, role-process matrix, principles rail, executive operating note",
+        "relationship_to_previous_slide": "operating model after scenario priorities"
+      },
+      "visual_elements": {
+        "main_visual": "3x3 operating model matrix。",
+        "supporting_elements": "thin matrix grid, principle chips, small governance line"
+      },
+      "constraints": [
+        "不要堆叠四个大段落",
+        "矩阵结构要清晰可扫读"
+      ]
+    },
+    {
+      "number": 10,
+      "title": "分阶段建设路径与讨论重点",
+      "role": "roadmap closing",
+      "intent": "收束为五阶段建设路线和需要高管拍板的事项。",
+      "key_points": [
+        "第一阶段统一看见：指标口径、看板、基础问数和高频报告",
+        "第二阶段自动分析：场景模板、异动归因、机构对比和证据链",
+        "第三阶段主动预警：预警体系、责任分派和处理时限",
+        "第四阶段动作闭环，第五阶段持续进化，形成公司级经营智能资产",
+        "需高管拍板：首发经营问题、统一指标、预警责任、AI 建议边界、动作跟踪范围和成效衡量方式"
+      ],
+      "layout": {
+        "composition": "五阶段横向路线图，上方是建设阶段，下方是需拍板事项；结尾突出从统一看见到持续进化。",
+        "content_zones": "title, five-stage roadmap, executive decision checklist",
+        "relationship_to_previous_slide": "closing roadmap"
+      },
+      "visual_elements": {
+        "main_visual": "五阶段路线图：统一看见 / 自动分析 / 主动预警 / 动作闭环 / 持续进化。",
+        "supporting_elements": "decision checklist with six items"
+      },
+      "constraints": [
+        "路线图要清楚，避免过密",
+        "最后一页必须突出需拍板事项"
+      ]
+    }
+  ]
+}
